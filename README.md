@@ -3,7 +3,12 @@
 ### 开发环境
   本项目开发环境为Macbook+CLion，因此项目内有很多与数据结构算法无关的文件，无视即可。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 项目结构
+
+## 顺序表 sequence_list
+- head file:      sqlist.h
+- implement file: sqlist.c
+- test file:      main.c
 
 ```markdown
 Syntax highlighted code block
@@ -23,7 +28,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
 
 
 You can use the [editor on GitHub](https://github.com/houor/data-structure/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
