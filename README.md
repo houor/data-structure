@@ -1,11 +1,12 @@
 ## 数据结构算法源代码
 
 ### 开发环境
-  本项目开发环境为Macbook+CLion，因此项目内有很多与数据结构算法无关的文件，无视即可。
+  本项目开发环境为Macbook+CLion，因此项目内有很多与数据结构算法无关的文件，只需关注.h和.c文件即可，其他可无视。
+  如果在Microsoft Windows中使用VC++编译，可直接拷贝.h和.c文件到“控制台应用程序”内。
 
 ### 项目结构
 
-1. 顺序表 sequence_list
+1. 顺序表 sequence-list
 - head file:      sqlist.h
 - implement file: sqlist.c
 - test file:      main.c
