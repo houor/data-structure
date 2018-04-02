@@ -5,7 +5,7 @@
 
 ### 项目结构
 
-## 顺序表 sequence_list
+#### 顺序表 sequence_list
 - head file:      sqlist.h
 - implement file: sqlist.c
 - test file:      main.c
