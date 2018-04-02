@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sequence_list.dir/main.c.o"
+  "CMakeFiles/sequence_list.dir/sqlist.c.o"
   "sequence_list.pdb"
   "sequence_list"
 )

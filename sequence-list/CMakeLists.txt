@@ -3,4 +3,4 @@ project(sequence_list C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(sequence_list main.c)
+add_executable(sequence_list main.c sqlist.h sqlist.c)

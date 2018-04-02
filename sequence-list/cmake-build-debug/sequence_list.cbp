@@ -79,6 +79,12 @@
 		<Unit filename="/Users/houor/practices/CLionProjects/data-structure/sequence-list/main.c">
 			<Option target="sequence_list"/>
 		</Unit>
+		<Unit filename="/Users/houor/practices/CLionProjects/data-structure/sequence-list/sqlist.c">
+			<Option target="sequence_list"/>
+		</Unit>
+		<Unit filename="/Users/houor/practices/CLionProjects/data-structure/sequence-list/sqlist.h">
+			<Option target="sequence_list"/>
+		</Unit>
 		<Unit filename="/Users/houor/practices/CLionProjects/data-structure/sequence-list/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

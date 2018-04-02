@@ -9,4 +9,16 @@
 /Users/houor/practices/CLionProjects/data-structure/sequence-list/main.c
 stdio.h
 -
+sqlist.h
+/Users/houor/practices/CLionProjects/data-structure/sequence-list/sqlist.h
+
+/Users/houor/practices/CLionProjects/data-structure/sequence-list/sqlist.c
+stdio.h
+-
+stdlib.h
+-
+sqlist.h
+/Users/houor/practices/CLionProjects/data-structure/sequence-list/sqlist.h
+
+/Users/houor/practices/CLionProjects/data-structure/sequence-list/sqlist.h
 

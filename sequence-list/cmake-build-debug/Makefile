@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/sequence_list.dir/build.make CMakeFiles/sequence_list.dir/main.c.s
 .PHONY : main.c.s
 
+sqlist.o: sqlist.c.o
+
+.PHONY : sqlist.o
+
+# target to build an object file
+sqlist.c.o:
+	$(MAKE) -f CMakeFiles/sequence_list.dir/build.make CMakeFiles/sequence_list.dir/sqlist.c.o
+.PHONY : sqlist.c.o
+
+sqlist.i: sqlist.c.i
+
+.PHONY : sqlist.i
+
+# target to preprocess a source file
+sqlist.c.i:
+	$(MAKE) -f CMakeFiles/sequence_list.dir/build.make CMakeFiles/sequence_list.dir/sqlist.c.i
+.PHONY : sqlist.c.i
+
+sqlist.s: sqlist.c.s
+
+.PHONY : sqlist.s
+
+# target to generate assembly for a file
+sqlist.c.s:
+	$(MAKE) -f CMakeFiles/sequence_list.dir/build.make CMakeFiles/sequence_list.dir/sqlist.c.s
+.PHONY : sqlist.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sqlist.o"
+	@echo "... sqlist.i"
+	@echo "... sqlist.s"
 .PHONY : help
 
 
