@@ -11,9 +11,10 @@
 - implement file: sqlist.c
 - test file:      main.c
 
-2. 链表 to be continued
-
-
+2. 链表 linked-list
+- head file:      linkedlist.h
+- implement file: linkedlist.c
+- test file:      main.c
 
 
 
