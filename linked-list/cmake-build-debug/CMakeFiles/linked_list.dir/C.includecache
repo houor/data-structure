@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/linked-list/linkedlist.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/linked-list/stdio.h
+stdlib.h
+/Users/houor/practices/CLionProjects/data-structure/linked-list/stdlib.h
+linkedlist.h
+/Users/houor/practices/CLionProjects/data-structure/linked-list/linkedlist.h
+
+/Users/houor/practices/CLionProjects/data-structure/linked-list/linkedlist.h
+
+/Users/houor/practices/CLionProjects/data-structure/linked-list/main.c
+stdio.h
+-
+linkedlist.h
+/Users/houor/practices/CLionProjects/data-structure/linked-list/linkedlist.h
+
