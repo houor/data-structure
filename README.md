@@ -17,6 +17,8 @@
 - implement file: linkedlist.c
 - test file:      main.c
 
+3. 栈 to be continued
+
 
 
 
