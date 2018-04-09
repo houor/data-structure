@@ -26,11 +26,8 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding>
-                <element signature="e#12#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -42,11 +39,6 @@
               <caret selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linkedlist.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedlist.c">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -85,7 +77,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -106,7 +101,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.linked_list">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linked_list" RUN_TARGET_NAME="linked_list" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="linked_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linked_list" TARGET_NAME="linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linked_list" RUN_TARGET_NAME="linked_list" />
     <list>
       <item itemvalue="Application.Build All" />
@@ -125,24 +120,23 @@
       <updated>1522937440741</updated>
       <workItem from="1522937443286" duration="6438000" />
       <workItem from="1523028006187" duration="3467000" />
+      <workItem from="1523202130695" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9905000" />
+    <option name="totallyTimeSpent" value="9961000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.50119334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16576251" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3296593" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41082165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41082165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -153,6 +147,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3296593" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,11 +165,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedlist.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2775">
           <caret line="185" column="31" lean-forward="true" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
-          <folding>
-            <element signature="e#12#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -191,9 +198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkedlist.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/linkedlist.h">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -203,11 +207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#12#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>

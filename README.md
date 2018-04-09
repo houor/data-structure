@@ -17,7 +17,10 @@
 - implement file: linkedlist.c
 - test file:      main.c
 
-3. 栈 to be continued
+3. 顺序栈 sequence-stack  
+- head file:      sqstack.h
+- implement file: sqstack.c
+- test file:      main.c
 
 
 
