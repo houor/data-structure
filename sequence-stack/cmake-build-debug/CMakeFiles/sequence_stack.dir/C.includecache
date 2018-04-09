@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/sequence-stack/main.c
+stdio.h
+-
+sqstack.h
+/Users/houor/practices/CLionProjects/data-structure/sequence-stack/sqstack.h
+
+/Users/houor/practices/CLionProjects/data-structure/sequence-stack/sqstack.c
+stdio.h
+-
+stdlib.h
+-
+sqstack.h
+/Users/houor/practices/CLionProjects/data-structure/sequence-stack/sqstack.h
+
+/Users/houor/practices/CLionProjects/data-structure/sequence-stack/sqstack.h
+
