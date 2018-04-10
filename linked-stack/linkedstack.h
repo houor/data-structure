@@ -1,16 +1,14 @@
 /**
- * sqstack.h
+ * linkedstack.h
  *
- * sequence stack header
+ * linked stack header file
  *
- * Created by Houor
+ * Create By Houor
  */
 
-#ifndef SEQUENCE_STACK_H
-#define SEQUENCE_STACK_H
+#ifndef LINKED_STACK_H
+#define LINKED_STACK_H
 
-#define STACK_INIT_SIZE 100
-#define STACK_INCREMENT 100
 
 #define ElementType int
 
@@ -23,17 +21,24 @@
 #define EMPTY           -3
 #define NONE            -11
 
+int debug;
 
-typedef struct {
-    ElementType *base;
-    ElementType *top;
-    int stackSize;
+typedef struct LinkNode {
+    ElementType element;// data
+    struct LinkNode *next;// pointer
+} LinkNode, *Node;
+
+typedef struct LinkStack {
+    Node top;
+    Node base;
+    int count; // the number of element
 } Stack;
+
 
 /**
  * initialize stack
  *
- * @param stack a stack with memory to be allocated
+ * @param stack
  * @return the status of initializing
  */
 int initializeStack(Stack *stack);
@@ -124,4 +129,6 @@ int getTop(Stack *stack, ElementType *element);
  */
 int traverseStack(Stack *stack, int (*visit)(ElementType));
 
-#endif //SEQUENCE_STACK_H
+void setDebugLevel(int level);
+
+#endif //LINKED_STACK_H

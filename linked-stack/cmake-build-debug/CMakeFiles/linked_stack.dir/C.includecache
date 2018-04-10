@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/linked-stack/linkedstack.c
+stdio.h
+-
+stdlib.h
+-
+linkedstack.h
+/Users/houor/practices/CLionProjects/data-structure/linked-stack/linkedstack.h
+
+/Users/houor/practices/CLionProjects/data-structure/linked-stack/linkedstack.h
+
+/Users/houor/practices/CLionProjects/data-structure/linked-stack/main.c
+stdio.h
+-
+linkedstack.h
+/Users/houor/practices/CLionProjects/data-structure/linked-stack/linkedstack.h
+
