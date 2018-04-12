@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/round-robin-queue/main.c
+stdio.h
+-
+rrqueue.h
+/Users/houor/practices/CLionProjects/data-structure/round-robin-queue/rrqueue.h
+
+/Users/houor/practices/CLionProjects/data-structure/round-robin-queue/rrqueue.c
+stdio.h
+-
+stdlib.h
+-
+rrqueue.h
+/Users/houor/practices/CLionProjects/data-structure/round-robin-queue/rrqueue.h
+
+/Users/houor/practices/CLionProjects/data-structure/round-robin-queue/rrqueue.h
+
