@@ -47,7 +47,7 @@ int destroyStack(Stack *stack) {
             q = p;
             p = p->next;
             if (debug) {
-                //printf("free %d, count = %d\n", q->element, stack->count--);
+                printf("free %d, count = %d\n", q->element, stack->count--);
             }
             free(q);
         }
@@ -59,7 +59,7 @@ int destroyStack(Stack *stack) {
 
         // free head node
         if (debug) {
-            //printf("free head node at the end of operation.\n");
+            printf("free head node at the end of operation.\n");
         }
         free(stack->top);
     }

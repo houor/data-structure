@@ -16,9 +16,12 @@
 #define FALSE            0
 #define OK               1
 #define ERROR            0
+
+#define FULL            11
+#define EMPTY           10
+
 #define INFEASIBLE      -1
 #define OVERFLOW        -2
-#define EMPTY           -3
 #define NONE            -11
 
 int debug;
