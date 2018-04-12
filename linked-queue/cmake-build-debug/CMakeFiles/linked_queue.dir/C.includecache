@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c
+stdio.h
+-
+stdlib.h
+-
+linkedqueue.h
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.h
+
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.h
+
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/main.c
+stdio.h
+-
+linkedqueue.h
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.h
+

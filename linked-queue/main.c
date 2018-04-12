@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "rrqueue.h"
+#include "linkedqueue.h"
 
 int visit(ElementType e) {
     printf("%d\t", e);
@@ -10,9 +10,11 @@ int visit(ElementType e) {
 int main() {
 
     ElementType element;
-    RRQueue queue;
+    LinkedQueue queue;
     int status;
     int i;
+
+    setDebugLevel(TRUE);
 
     printf("初始化前状态: length = %d, count = %d, state = %s\n", length(&queue), count(&queue),
            isEmpty(&queue) ? "empty" : "not empty");
@@ -113,7 +115,7 @@ int main() {
     if (status == INFEASIBLE) {
         printf("未初始化.\n");
     } else {
-        printf("清空队列后数据状态:\n");
+        printf("清空队列后数据:\n");
         traverseQueue(&queue, visit);
     }
     printf("清空队列后状态: length = %d, count = %d, state = %s\n", length(&queue), count(&queue),
@@ -121,11 +123,9 @@ int main() {
 
     printf("==============================\n");
 
-    printf("添加多个元素(大于QUEUE_MAX_LENGTH): \n");
+    printf("添加多个元素: \n");
 
-    int c = QUEUE_MAX_LENGTH + 2;
-
-    for (int i = 0; i < c; i++) {
+    for (i = 0; i < 11; i++) {
         status = enQueue(&queue, i);
 
         if (status == INFEASIBLE) {

@@ -1,11 +1,15 @@
-//
-// Created by Eric Houor on 2018/4/11.
-//
+/**
+ * linkedqueue.h
+ *
+ * linked queue header file
+ *
+ * Create By Houor
+ */
 
-#ifndef ROUND_ROBIN_QUEUE_H
-#define ROUND_ROBIN_QUEUE_H
+#ifndef LINKED_QUEUE_H
+#define LINKED_QUEUE_H
 
-#define QUEUE_MAX_LENGTH 6
+
 #define ElementType int
 
 #define TRUE             1
@@ -17,12 +21,18 @@
 #define FULL            11
 #define EMPTY           10
 
-typedef struct {
-    ElementType *base;
-    int front;// front pointer
-    int rear;// rear pointer
-} RRQueue;
+typedef struct LinkNode {
+    ElementType element;
+    struct QueueNode *next;
+} LinkNode, *Node;
 
+typedef struct {
+    Node front;   // header pointer
+    Node rear;    // rear pointer
+    int count;    // the number of element
+} LinkedQueue;
+
+int debug;
 
 /**
  * initialize queue and allocate resource
@@ -30,7 +40,7 @@ typedef struct {
  * @param queue
  * @return operation result
  */
-int initializeQueue(RRQueue *queue);
+int initializeQueue(LinkedQueue *queue);
 
 
 /**
@@ -39,7 +49,7 @@ int initializeQueue(RRQueue *queue);
  * @param queue
  * @return operation result
  */
-int destroyQueue(RRQueue *queue);
+int destroyQueue(LinkedQueue *queue);
 
 
 /**
@@ -48,7 +58,7 @@ int destroyQueue(RRQueue *queue);
  * @param queue
  * @return INFEASIBLE, TRUE, FALSE
  */
-int isEmpty(RRQueue *queue);
+int isEmpty(LinkedQueue *queue);
 
 
 /**
@@ -57,7 +67,7 @@ int isEmpty(RRQueue *queue);
  * @param queue
  * @return operation result
  */
-int clearQueue(RRQueue *queue);
+int clearQueue(LinkedQueue *queue);
 
 
 /**
@@ -66,7 +76,7 @@ int clearQueue(RRQueue *queue);
  * @param queue
  * @return INFEASIBLE, length
  */
-int length(RRQueue *queue);
+int length(LinkedQueue *queue);
 
 /**
  * the number of element in the queue
@@ -74,7 +84,7 @@ int length(RRQueue *queue);
  * @param queue
  * @return INFEASIBLE, element numner
  */
-int count(RRQueue *queue);
+int count(LinkedQueue *queue);
 
 
 /**
@@ -84,7 +94,7 @@ int count(RRQueue *queue);
  * @param element
  * @return operation result
  */
-int enQueue(RRQueue *queue, ElementType element);
+int enQueue(LinkedQueue *queue, ElementType element);
 
 
 /**
@@ -94,7 +104,7 @@ int enQueue(RRQueue *queue, ElementType element);
  * @param element
  * @return operation result
  */
-int deQueue(RRQueue *queue, ElementType *e);
+int deQueue(LinkedQueue *queue, ElementType *e);
 
 
 /**
@@ -104,6 +114,8 @@ int deQueue(RRQueue *queue, ElementType *e);
  * @param visit print style
  * @return operation status
  */
-int traverseQueue(RRQueue *queue, int (*visit)(ElementType));
+int traverseQueue(LinkedQueue *queue, int (*visit)(ElementType));
 
-#endif //ROUND_ROBIN_QUEUE_H
+void setDebugLevel(int level);
+
+#endif //LINKED_QUEUE_H
