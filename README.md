@@ -22,6 +22,15 @@
 - implement file: sqstack.c
 - test file:      main.c
 
+4. 链栈 linked-stack  
+- head file:      linkedstack.h
+- implement file: linkedstack.c
+- test file:      main.c
+
+5. 循环队列 round-robin-queue  
+- head file:      rrqueue.h
+- implement file: rrqueue.c
+- test file:      main.c
 
 
 
