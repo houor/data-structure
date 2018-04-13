@@ -32,8 +32,8 @@ int main() {
     status = enQueue(&queue, element);
     if (status == INFEASIBLE) {
         printf("未初始化.\n");
-    } else if (status == FULL) {
-        printf("队列已满.\n");
+    } else if (status == OVERFLOW) {
+        printf("内存分配出错.\n");
     } else {
         printf("%d进队后状态:\n", element);
         traverseQueue(&queue, visit);
@@ -43,8 +43,8 @@ int main() {
     status = enQueue(&queue, element);
     if (status == INFEASIBLE) {
         printf("未初始化.\n");
-    } else if (status == FULL) {
-        printf("队列已满.\n");
+    } else if (status == OVERFLOW) {
+        printf("内存分配出错.\n");
     } else {
         printf("%d进队后状态:\n", element);
         traverseQueue(&queue, visit);
@@ -54,8 +54,8 @@ int main() {
     status = enQueue(&queue, element);
     if (status == INFEASIBLE) {
         printf("未初始化.\n");
-    } else if (status == FULL) {
-        printf("队列已满.\n");
+    } else if (status == OVERFLOW) {
+        printf("内存分配出错.\n");
     } else {
         printf("%d进队后状态:\n", element);
         traverseQueue(&queue, visit);
@@ -65,8 +65,8 @@ int main() {
     status = enQueue(&queue, element);
     if (status == INFEASIBLE) {
         printf("未初始化.\n");
-    } else if (status == FULL) {
-        printf("队列已满.\n");
+    } else if (status == OVERFLOW) {
+        printf("内存分配出错.\n");
     } else {
         printf("%d进队后状态:\n", element);
         traverseQueue(&queue, visit);

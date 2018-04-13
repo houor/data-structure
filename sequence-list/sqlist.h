@@ -1,13 +1,14 @@
 /**
  * sqlist.h
+ *
  * sequence list head
  *
  * Created by Houor
  *
  */
 
-#ifndef SEQUENCE_LIST_SQLIST_H
-#define SEQUENCE_LIST_SQLIST_H
+#ifndef SEQUENCE_LIST_H
+#define SEQUENCE_LIST_H
 
 #define ElementType int
 
@@ -28,6 +29,7 @@ typedef struct {
     int count; // the count of element in this list
 } List;
 
+
 /**
  * initialize sequence list
  *
@@ -43,7 +45,7 @@ int initializeList(List *list);
  * @param list
  * @return the status of destroying
  */
-int destoryList(List *list);// 销毁线性表
+int destroyList(List *list);// 销毁线性表
 
 
 /**
@@ -158,4 +160,4 @@ int clearList(List *list);
  */
 void traverseList(List *list, void (*visit)(ElementType e));
 
-#endif //SEQUENCE_LIST_SQLIST_H
+#endif //SEQUENCE_LIST_H

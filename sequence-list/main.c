@@ -203,7 +203,7 @@ int main() {
 
     printf("================================\n");
     printf("运行结束，销毁列表并回收内存空间\n");
-    destoryList(&list);
+    destroyList(&list);
 
     return 0;
 }

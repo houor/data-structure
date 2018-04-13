@@ -43,7 +43,7 @@ int destroyQueue(RRQueue *queue);
 
 
 /**
- * test whether the stack is empty
+ * test whether the queue is empty
  *
  * @param queue
  * @return INFEASIBLE, TRUE, FALSE

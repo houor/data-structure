@@ -27,7 +27,7 @@ int initializeList(List *list) {
 }
 
 
-int destoryList(List *list) {
+int destroyList(List *list) {
     if (!list->elementList)
         return INFEASIBLE;
 
