@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/array/array.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/array/stdio.h
+stdlib.h
+/Users/houor/practices/CLionProjects/data-structure/array/stdlib.h
+stdarg.h
+/Users/houor/practices/CLionProjects/data-structure/array/stdarg.h
+math.h
+/Users/houor/practices/CLionProjects/data-structure/array/math.h
+array.h
+/Users/houor/practices/CLionProjects/data-structure/array/array.h
+
+/Users/houor/practices/CLionProjects/data-structure/array/array.h
+
+/Users/houor/practices/CLionProjects/data-structure/array/main.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/array/stdio.h
+array.h
+/Users/houor/practices/CLionProjects/data-structure/array/array.h
+
