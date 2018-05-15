@@ -32,6 +32,16 @@
 - implement file: rrqueue.c
 - test file:      main.c
 
+6. 字符串 string  
+- head file:      fixlengthstring.h
+- implement file: fixlengthstring.c
+- test file:      main.c
+
+7. 多维数组 array  
+- head file:      array.h
+- implement file: array.c
+- test file:      main.c
+
 
 
 You can use the [editor on GitHub](https://github.com/houor/data-structure/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
