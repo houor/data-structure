@@ -1,9 +1,9 @@
 /**
- * binarytree.h
+ * binarytree.c
  *
- * header file of binary tree
+ * implementation file of binary tree
  *
- * Created by Houor
+ * created by Houor
  */
 
 
