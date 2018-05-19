@@ -1,9 +1,9 @@
 /**
- * linkedlist.h
+ * fixlengthstring.c
  *
- * linked list with head and tail node
+ * a fixed length string
  *
- * Created by Houor
+ * created by Houor
  */
 
 #include "stdio.h"
