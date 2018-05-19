@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/recursion/main.c
+stdio.h
+-
+recursion.h
+/Users/houor/practices/CLionProjects/data-structure/recursion/recursion.h
+
+/Users/houor/practices/CLionProjects/data-structure/recursion/recursion.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/recursion/stdio.h
+recursion.h
+/Users/houor/practices/CLionProjects/data-structure/recursion/recursion.h
+
+/Users/houor/practices/CLionProjects/data-structure/recursion/recursion.h
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/binarytree/binarytree.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/binarytree/stdio.h
+stdlib.h
+/Users/houor/practices/CLionProjects/data-structure/binarytree/stdlib.h
+binarytree.h
+/Users/houor/practices/CLionProjects/data-structure/binarytree/binarytree.h
+
+/Users/houor/practices/CLionProjects/data-structure/binarytree/binarytree.h
+
+/Users/houor/practices/CLionProjects/data-structure/binarytree/main.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/binarytree/stdio.h
+binarytree.h
+/Users/houor/practices/CLionProjects/data-structure/binarytree/binarytree.h
+
