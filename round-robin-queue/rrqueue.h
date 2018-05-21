@@ -1,6 +1,10 @@
-//
-// Created by Eric Houor on 2018/4/11.
-//
+/**
+ * rrqueue.h
+ *
+ * header file of round robin queue
+ *
+ * Created by Houor
+ */
 
 #ifndef ROUND_ROBIN_QUEUE_H
 #define ROUND_ROBIN_QUEUE_H

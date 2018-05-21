@@ -27,17 +27,83 @@ typedef struct BiTreeNode {
 } BiTreeNode, *BiTree;
 
 
-int initBinaryTree(BiTree tree);
+/**
+ * initialize tree
+ *
+ * @param tree
+ * @return
+ */
+int initializeBinaryTree(BiTree tree);
 
+/**
+ * create tree by pre order
+ * @param elements
+ * @return
+ */
 BiTree preCreateBinaryTree(ElementType *elements);
 
+
+/**
+ * destroy tree
+ *
+ * @param tree
+ * @return
+ */
 int destroyBinaryTree(BiTree tree);
 
+
+/**
+ * traverse tree in pre order way
+ *
+ * @param tree
+ * @return
+ */
 int preOrderTraverse(BiTree tree);
 
+
+/**
+ * traverse tree in middle order way
+ *
+ * @param tree
+ * @return
+ */
 int inOrderTraverse(BiTree tree);
 
+
+/**
+ * traverse tree in post order way
+ *
+ * @param tree
+ * @return
+ */
 int postOrderTraverse(BiTree tree);
+
+
+/**
+ * the number of tree node
+ *
+ * @param tree
+ * @return
+ */
+int count(BiTree tree);
+
+
+/**
+ * the number of leaf node
+ *
+ * @param tree
+ * @return
+ */
+int leafCount(BiTree tree);
+
+
+/**
+ * the depth of tree
+ *
+ * @param tree
+ * @return
+ */
+int depth(BiTree tree);
 
 
 #endif //BINARYTREE_H

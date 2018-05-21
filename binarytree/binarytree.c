@@ -6,8 +6,6 @@
  * created by Houor
  */
 
-
-
 #include "stdio.h"
 #include "stdlib.h"
 
@@ -15,15 +13,18 @@
 
 int arrayIndex = 0;
 
-int initBinaryTree(BiTree tree) {
+int initializeBinaryTree(BiTree tree) {
     tree = NULL;
     arrayIndex = 0;
     return OK;
 }
 
 BiTree preCreateBinaryTree(ElementType *elements) {
-    //char ch;
-    //scanf("%c", &ch);
+    // in the function, we will use an array to initialize tree
+    // if you want initialize the tree by inputting the element,
+    // then use 'scanf' function just like the follow
+    // char ch;
+    // scanf("%c", &ch);
 
     BiTree tree;
     char ch = *(elements + arrayIndex++);
@@ -34,7 +35,7 @@ BiTree preCreateBinaryTree(ElementType *elements) {
         tree = (BiTree) malloc(sizeof(BiTreeNode));
 
         if (!tree) {
-            exit(OVERFLOW);
+            return OVERFLOW;
         }
 
         tree->data = ch;
@@ -84,4 +85,33 @@ int postOrderTraverse(BiTree tree) {
     return OK;
 }
 
+int count(BiTree tree) {
+    if (tree == NULL) {
+        return 0;
+    } else {
+        return count(tree->leftchild) + count(tree->rightchild) + 1;
+    }
+}
 
+int leafCount(BiTree tree) {
+    if (tree == NULL) {
+        return 0;
+    }
+    if (tree->leftchild == NULL && tree->rightchild == NULL) {
+        return 1;
+    } else {
+        return leafCount(tree->leftchild) + leafCount(tree->rightchild);
+    }
+}
+
+
+int depth(BiTree tree) {
+    if (tree == NULL) {
+        return 0;
+    }
+
+    int leftNum = depth(tree->leftchild);
+    int rightNum = depth(tree->rightchild);
+
+    return leftNum > rightNum ? leftNum + 1 : rightNum + 1;
+}
