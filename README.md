@@ -32,14 +32,24 @@
 - implement file: rrqueue.c
 - test file:      main.c
 
-6. 字符串 string  
+6. 链队 linked-queue  
+- head file:      linkedqueue.h
+- implement file: linkedqueue.c
+- test file:      main.c
+
+7. 字符串 string  
 - head file:      fixlengthstring.h
 - implement file: fixlengthstring.c
 - test file:      main.c
 
-7. 多维数组 array  
+8. 多维数组 array  
 - head file:      array.h
 - implement file: array.c
+- test file:      main.c
+
+9. 二叉树 binary tree  
+- head file:      binarytree.h
+- implement file: binarytree.c
 - test file:      main.c
 
 
