@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/huffman/huffman.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/huffman/stdio.h
+stdlib.h
+/Users/houor/practices/CLionProjects/data-structure/huffman/stdlib.h
+string.h
+/Users/houor/practices/CLionProjects/data-structure/huffman/string.h
+huffman.h
+/Users/houor/practices/CLionProjects/data-structure/huffman/huffman.h
+
+/Users/houor/practices/CLionProjects/data-structure/huffman/huffman.h
+
+/Users/houor/practices/CLionProjects/data-structure/huffman/main.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/huffman/stdio.h
+stdlib.h
+/Users/houor/practices/CLionProjects/data-structure/huffman/stdlib.h
+huffman.h
+/Users/houor/practices/CLionProjects/data-structure/huffman/huffman.h
+
