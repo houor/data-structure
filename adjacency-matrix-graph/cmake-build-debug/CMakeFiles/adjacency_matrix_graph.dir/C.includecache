@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/adjacencymatrixgraph.c
+stdio.h
+/Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/stdio.h
+stdlib.h
+/Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/stdlib.h
+../linked-queue/linkedqueue.h
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.h
+adjacencymatrixgraph.h
+/Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/adjacencymatrixgraph.h
+
+/Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/adjacencymatrixgraph.h
+../linked-queue/linkedqueue.h
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.h
+
+/Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/main.c
+stdio.h
+-
+adjacencymatrixgraph.h
+/Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/adjacencymatrixgraph.h
+
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c
+stdio.h
+-
+stdlib.h
+-
+linkedqueue.h
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.h
+
+/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.h
+
