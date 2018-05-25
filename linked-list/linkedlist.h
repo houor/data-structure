@@ -20,8 +20,6 @@
 #define NONE            -11
 
 
-int debug;
-
 typedef struct LinkNode {
     ElementType element;
     struct LinkNode *next;
@@ -48,7 +46,7 @@ int initializeList(List *list);
  * @param list
  * @return the status of destroying
  */
-int destroyList(List *list);// 销毁线性表
+int destroyList(List *list);
 
 
 /**
@@ -57,7 +55,7 @@ int destroyList(List *list);// 销毁线性表
  * @param list
  * @return TRUE is empty, FALSE is not empty, if not initialized, then INFEASIBLE
  */
-int isEmpty(List *list);// 线性表是否为空
+int isEmpty(List *list);
 
 
 /**

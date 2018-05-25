@@ -10,6 +10,7 @@
 #include "stdlib.h"
 #include "linkedlist.h"
 
+int debug;
 
 int initializeList(List *list) {
     // allocate head node
