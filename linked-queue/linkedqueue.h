@@ -32,7 +32,6 @@ typedef struct {
     int count;    // the number of element
 } LinkedQueue;
 
-int debug;
 
 /**
  * initialize queue and allocate resource

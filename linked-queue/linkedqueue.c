@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #include "linkedqueue.h"
 
+int debug;
+
 
 int initializeQueue(LinkedQueue *queue) {
     // allocate head node
@@ -41,7 +43,7 @@ int destroyQueue(LinkedQueue *queue) {
     if (queue->front == queue->rear) { // empty
         // free head node
         if (debug) {
-            printf("free head node at the end of operation.\n");
+            printf("\nfree head node at the end of operation.\n");
         }
         free(queue->front);
     } else { // not empty
