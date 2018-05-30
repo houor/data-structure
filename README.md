@@ -50,6 +50,11 @@
 9. 二叉树 binary tree  
 - head file:      binarytree.h
 - implement file: binarytree.c
+- test file:      main.c 
+
+10. 图 adjacency matrix graph
+- head file:      adjacencymatrixgraph.h
+- implement file: adjacencymatrixgraph.c
 - test file:      main.c
 
 
