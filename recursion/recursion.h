@@ -7,6 +7,8 @@
 
 long factorial(long n);
 
+long recursion_factorial(long n);
+
 void fff(int n, int k);
 
 

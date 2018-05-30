@@ -6,7 +6,9 @@ int main() {
 
     long n = 6;
 
-    printf("%ld的阶乘为(非递归方法): %ld", n, factorial(5));
+    printf("%ld的阶乘为(非递归方法): %ld.\n", n, factorial(n));
+
+    printf("%ld的阶乘为(递归方法): %ld.\n", n, recursion_factorial(n));
 
     int x, y, z, s = 0;
 
@@ -20,7 +22,7 @@ int main() {
     printf("s=%d\n", s);
 
 
-    fff(4, 0);
+    fff(5, 0);
 
 
     return 0;

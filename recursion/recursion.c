@@ -22,6 +22,15 @@ long factorial(long n) {
     return fact;
 }
 
+long recursion_factorial(long n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    }
+
+    return n * recursion_factorial(n - 1);
+}
+
+
 int s = 0;
 int a[10] = {0};
 
