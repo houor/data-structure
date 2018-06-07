@@ -53,8 +53,8 @@ Status createGraph(ADJMTXGraph *graph, int vertexNum, VertexType *vertex, int ed
     EdgeNode *p = edgeNodes;
 
     for (k = 0; k < edgeNum; k++, p++) {
-        *(graph->matrix + p->i * edgeNum + p->j) = p->weight;
-        *(graph->matrix + p->j * edgeNum + p->i) = p->weight;
+        *(graph->matrix + p->i * vertexNum + p->j) = p->weight;
+        *(graph->matrix + p->j * vertexNum + p->i) = p->weight;
     }
     graph->edgeNum = edgeNum;
 
