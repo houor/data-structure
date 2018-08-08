@@ -48,10 +48,10 @@ RM = "/Users/houor/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph
+CMAKE_SOURCE_DIR = /Users/houor/practices/CLionProjects/data-structure/others
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/houor/practices/CLionProjects/data-structure/others/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/cmake-build-debug/CMakeFiles /Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/houor/practices/CLionProjects/data-structure/others/cmake-build-debug/CMakeFiles /Users/houor/practices/CLionProjects/data-structure/others/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/houor/practices/CLionProjects/data-structure/adjacency-matrix-graph/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/houor/practices/CLionProjects/data-structure/others/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named adjacency_matrix_graph
+# Target rules for targets named others
 
 # Build rule for target.
-adjacency_matrix_graph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 adjacency_matrix_graph
-.PHONY : adjacency_matrix_graph
+others: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 others
+.PHONY : others
 
 # fast build rule for target.
-adjacency_matrix_graph/fast:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/build
-.PHONY : adjacency_matrix_graph/fast
+others/fast:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/build
+.PHONY : others/fast
 
-Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.o: Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.o
+cpointer.o: cpointer.c.o
 
-.PHONY : Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.o
-
-# target to build an object file
-Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.o:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.o
-.PHONY : Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.o
-
-Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.i: Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.i
-
-.PHONY : Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.i
-
-# target to preprocess a source file
-Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.i:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.i
-.PHONY : Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.i
-
-Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.s: Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.s
-
-.PHONY : Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.s
-
-# target to generate assembly for a file
-Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.s:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.s
-.PHONY : Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.c.s
-
-adjacencymatrixgraph.o: adjacencymatrixgraph.c.o
-
-.PHONY : adjacencymatrixgraph.o
+.PHONY : cpointer.o
 
 # target to build an object file
-adjacencymatrixgraph.c.o:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/adjacencymatrixgraph.c.o
-.PHONY : adjacencymatrixgraph.c.o
+cpointer.c.o:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/cpointer.c.o
+.PHONY : cpointer.c.o
 
-adjacencymatrixgraph.i: adjacencymatrixgraph.c.i
+cpointer.i: cpointer.c.i
 
-.PHONY : adjacencymatrixgraph.i
+.PHONY : cpointer.i
 
 # target to preprocess a source file
-adjacencymatrixgraph.c.i:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/adjacencymatrixgraph.c.i
-.PHONY : adjacencymatrixgraph.c.i
+cpointer.c.i:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/cpointer.c.i
+.PHONY : cpointer.c.i
 
-adjacencymatrixgraph.s: adjacencymatrixgraph.c.s
+cpointer.s: cpointer.c.s
 
-.PHONY : adjacencymatrixgraph.s
+.PHONY : cpointer.s
 
 # target to generate assembly for a file
-adjacencymatrixgraph.c.s:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/adjacencymatrixgraph.c.s
-.PHONY : adjacencymatrixgraph.c.s
+cpointer.c.s:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/cpointer.c.s
+.PHONY : cpointer.c.s
 
 main.o: main.c.o
 
@@ -183,7 +156,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/main.c.o
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -192,7 +165,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/main.c.i
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -201,8 +174,62 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/adjacency_matrix_graph.dir/build.make CMakeFiles/adjacency_matrix_graph.dir/main.c.s
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/main.c.s
 .PHONY : main.c.s
+
+memoryallocation.o: memoryallocation.c.o
+
+.PHONY : memoryallocation.o
+
+# target to build an object file
+memoryallocation.c.o:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/memoryallocation.c.o
+.PHONY : memoryallocation.c.o
+
+memoryallocation.i: memoryallocation.c.i
+
+.PHONY : memoryallocation.i
+
+# target to preprocess a source file
+memoryallocation.c.i:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/memoryallocation.c.i
+.PHONY : memoryallocation.c.i
+
+memoryallocation.s: memoryallocation.c.s
+
+.PHONY : memoryallocation.s
+
+# target to generate assembly for a file
+memoryallocation.c.s:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/memoryallocation.c.s
+.PHONY : memoryallocation.c.s
+
+structure.o: structure.c.o
+
+.PHONY : structure.o
+
+# target to build an object file
+structure.c.o:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/structure.c.o
+.PHONY : structure.c.o
+
+structure.i: structure.c.i
+
+.PHONY : structure.i
+
+# target to preprocess a source file
+structure.c.i:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/structure.c.i
+.PHONY : structure.c.i
+
+structure.s: structure.c.s
+
+.PHONY : structure.s
+
+# target to generate assembly for a file
+structure.c.s:
+	$(MAKE) -f CMakeFiles/others.dir/build.make CMakeFiles/others.dir/structure.c.s
+.PHONY : structure.c.s
 
 # Help Target
 help:
@@ -212,16 +239,19 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... adjacency_matrix_graph"
-	@echo "... Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.o"
-	@echo "... Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.i"
-	@echo "... Users/houor/practices/CLionProjects/data-structure/linked-queue/linkedqueue.s"
-	@echo "... adjacencymatrixgraph.o"
-	@echo "... adjacencymatrixgraph.i"
-	@echo "... adjacencymatrixgraph.s"
+	@echo "... others"
+	@echo "... cpointer.o"
+	@echo "... cpointer.i"
+	@echo "... cpointer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... memoryallocation.o"
+	@echo "... memoryallocation.i"
+	@echo "... memoryallocation.s"
+	@echo "... structure.o"
+	@echo "... structure.i"
+	@echo "... structure.s"
 .PHONY : help
 
 

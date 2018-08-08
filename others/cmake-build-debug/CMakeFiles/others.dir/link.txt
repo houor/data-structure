@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/others.dir/main.c.o CMakeFiles/others.dir/structure.c.o CMakeFiles/others.dir/cpointer.c.o CMakeFiles/others.dir/memoryallocation.c.o  -o others 
